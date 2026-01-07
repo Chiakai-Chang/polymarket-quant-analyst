@@ -29,8 +29,11 @@ The core logic is encapsulated in `GEMINI.md`. This protocol guides the AI agent
 This framework relies on **live web crawling** for real-time data verification. We recommend using the official **Gemini CLI**.
 
 **Prerequisites:**
-1.  Install **Gemini CLI**: Refer to the [Gemini CLI Official Installation Guide](https://github.com/google-gemini/gemini-cli).
-2.  Ensure your API Key is set and Search tools are enabled.
+1.  **Install Gemini CLI**:
+    *   **Windows Users:** We recommend installing [nvm-windows](https://github.com/coreybutler/nvm-windows) first. After installation, run `nvm install latest` to set up Node.js, then execute `npm install -g gemini-chat-cli`.
+    *   **Official Guide:** [Gemini CLI Official Installation Guide](https://github.com/google-gemini/gemini-cli).
+2.  **Authentication:** You can either log in via your Google account using `gemini auth login` (recommended for AI Premium users to access higher quotas) or set an API key.
+3.  Ensure Search tools are enabled in your environment.
 
 **Execution:**
 1.  Clone this repository:
@@ -38,11 +41,11 @@ This framework relies on **live web crawling** for real-time data verification. 
     git clone https://github.com/Chiakai-Chang/polymarket-quant-analyst.git
     cd polymarket-quant-analyst
     ```
-2.  Run the system prompt:
+2.  Start the **interactive research session**:
     ```bash
-    gemini chat -s GEMINI.md
+    gemini
     ```
-3.  Input a target market URL to begin analysis.
+3.  The system will automatically load the `GEMINI.md` protocol. Input a target market URL to begin analysis.
 
 ## 📂 Repository Structure
 

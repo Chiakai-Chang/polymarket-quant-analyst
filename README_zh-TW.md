@@ -29,8 +29,11 @@
 由於本框架包含大量的**即時網路搜索 (Web Crawling)**，我們強烈建議使用官方的 **Gemini CLI** 來執行，因為它原生整合了強大的搜索工具。
 
 **前置作業：**
-1.  安裝 **Gemini CLI**：請參考 [Gemini CLI 官方安裝指南](https://github.com/google-gemini/gemini-cli)。
-2.  確保您已設定好 API Key 並開啟了網路搜索權限。
+1.  **安裝 Gemini CLI**：
+    *   **Windows 用戶推薦：** 先下載並安裝 [nvm-windows](https://github.com/coreybutler/nvm-windows)。安裝後執行 `nvm install latest` 取得最新 Node.js 環境，接著執行 `npm install -g gemini-chat-cli` 即可。
+    *   **官方指南：** [Gemini CLI Official Installation Guide](https://github.com/google-gemini/gemini-cli)。
+2.  **身分驗證：** 您可以直接透過 `gemini auth login` 使用 Google 帳號登入（推薦 AI Premium 用戶使用以獲取更高額度），或設定 API Key。
+3.  確保已開啟網路搜索權限。
 
 **獲取專案：**
 *   **透過 Git 複製：**
@@ -44,11 +47,11 @@
 
 **執行步驟：**
 1.  在專案目錄下開啟終端機。
-2.  啟動分析會話：
+2.  啟動**互動式分析會話**：
     ```powershell
-    gemini chat -s GEMINI.md
+    gemini
     ```
-3.  輸入目標市場連結進行分析。
+3.  系統會自動載入目錄下的 `GEMINI.md` 協議。請直接輸入目標市場連結開始分析。
 
 ## 📂 專案結構 (Repository Structure)
 
