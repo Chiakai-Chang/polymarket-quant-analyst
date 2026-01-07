@@ -29,15 +29,21 @@
 由於本框架包含大量的**即時網路搜索 (Web Crawling)**，我們強烈建議使用官方的 **Gemini CLI** 來執行，因為它原生整合了強大的搜索工具。
 
 **前置作業：**
-1.  安裝 **Gemini CLI**：請參考 Google 官方安裝指南。
+1.  安裝 **Gemini CLI**：請參考 [Gemini CLI 官方安裝指南](https://github.com/google-gemini/gemini-cli)。
 2.  確保您已設定好 API Key 並開啟了網路搜索權限。
 
-**執行步驟：**
-1.  複製本專案：
+**獲取專案：**
+*   **透過 Git 複製：**
     ```bash
-    git clone https://github.com/your-username/polymarket-quant-analyst.git
+    git clone https://github.com/Chiakai-Chang/polymarket-quant-analyst.git
     cd polymarket-quant-analyst
     ```
+*   **直接下載 ZIP：**
+    1.  點擊下載 [最新版本 ZIP 檔](https://github.com/Chiakai-Chang/polymarket-quant-analyst/archive/refs/heads/main.zip)。
+    2.  將檔案解壓縮至本地資料夾。
+
+**執行步驟：**
+1.  在專案目錄下開啟終端機。
 2.  啟動分析會話：
     ```powershell
     gemini chat -s src/system_prompt.md

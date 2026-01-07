@@ -29,15 +29,21 @@ The core logic is encapsulated in `src/system_prompt.md`. This protocol guides t
 This framework relies on **live web crawling** for real-time data verification. We recommend using the official **Gemini CLI**.
 
 **Prerequisites:**
-1.  Install **Gemini CLI**: Refer to the [Official Gemini CLI Installation Guide](https://github.com/google/gemini-cli).
+1.  Install **Gemini CLI**: Refer to the [Gemini CLI Official Installation Guide](https://github.com/google-gemini/gemini-cli).
 2.  Ensure your API Key is set and Search tools are enabled.
 
-**Execution:**
-1.  Clone this repository:
+**Getting the Project:**
+*   **Via Git:**
     ```bash
-    git clone https://github.com/your-username/polymarket-quant-analyst.git
+    git clone https://github.com/Chiakai-Chang/polymarket-quant-analyst.git
     cd polymarket-quant-analyst
     ```
+*   **Via ZIP Download:**
+    1.  Download the [Latest Release ZIP](https://github.com/Chiakai-Chang/polymarket-quant-analyst/archive/refs/heads/main.zip).
+    2.  Extract the contents to a local folder.
+
+**Running the Analysis:**
+1.  Open your terminal in the project directory.
 2.  Run the system prompt:
     ```bash
     gemini chat -s src/system_prompt.md
