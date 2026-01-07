@@ -1,6 +1,11 @@
 # Changelog
 
-All notable changes to **Project Cassandra** will be documented in this file.
+All notable changes to **Polymarket Quant Analyst** will be documented in this file.
+
+## [v4.1.0] - 2026-01-07
+### Added
+- **Academic Rebranding:** Complete overhaul of terminology to align with "Information Market Probability Engine". Removed all gambling references.
+- **Microstructure Research:** Reframed order book analysis as "Data Depth Evaluation".
 
 ## [v4.0.0] - 2026-01-07
 ### Added
@@ -11,7 +16,7 @@ All notable changes to **Project Cassandra** will be documented in this file.
 
 ### Changed
 - **System Prompt Refactoring:** Implemented "Internal Code" mappings (e.g., mapping "Alpha-Seeker" to "Degen Logic") to maintain LLM performance while sanitizing visible terminology.
-- **Liquidity Logic:** Refined "Zombie Market" and "Imbalance" filters for greater precision.
+- **Liquidity Logic:** Refined "Liquidity Trap" (formerly Zombie Market) and "Imbalance" filters.
 
 ## [v3.6.0] - 2026-01-07
 ### Added
