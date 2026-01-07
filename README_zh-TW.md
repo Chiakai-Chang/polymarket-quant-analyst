@@ -13,7 +13,7 @@
 
 ## 🧠 系統架構 (System Architecture)
 
-核心邏輯封裝於 `src/system_prompt.md` 中。此協議引導 AI 代理人完成六個分析階段：
+核心邏輯封裝於 `GEMINI.md` 中。此協議引導 AI 代理人完成六個分析階段：
 
 1.  **Phase 0: Triage & Configuration (分流與配置)** - 事件分類與分析屬性選擇。
 2.  **Phase 1: Forensic Audit (取證審計)** - 數據源檢查、結構性風險與歷史判例分析。
@@ -46,13 +46,13 @@
 1.  在專案目錄下開啟終端機。
 2.  啟動分析會話：
     ```powershell
-    gemini chat -s src/system_prompt.md
+    gemini chat -s GEMINI.md
     ```
 3.  輸入目標市場連結進行分析。
 
 ## 📂 專案結構 (Repository Structure)
 
-*   `src/system_prompt.md`: 核心分析協議 (v4.1 Professional Edition)。
+*   `GEMINI.md`: 核心分析協議 (v1.0.0)。
 *   `docs/examples/`: 案例研究與使用範例 (如：硬體發布機率預測)。
 *   `CHANGELOG.md`: 版本歷史與協議演進記錄。
 *   `LICENSE`: MIT License。

@@ -2,7 +2,7 @@
 
 **Event:** Probability Estimation of OpenAI Consumer Hardware Launch by December 31, 2026.
 **Date of Analysis:** 2026-01-07
-**Framework Version:** OSINT Decision Support Framework v4.1 (Academic Edition)
+**Framework Version:** OSINT Decision Support Framework v1.0.0 (Academic Edition)
 
 ---
 

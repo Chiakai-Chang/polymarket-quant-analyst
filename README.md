@@ -13,7 +13,7 @@ This repository (`polymarket-quant-analyst`) integrates principles from **probab
 
 ## 🧠 System Architecture
 
-The core logic is encapsulated in `src/system_prompt.md`. This protocol guides the AI agent through a six-stage analytical pipeline:
+The core logic is encapsulated in `GEMINI.md`. This protocol guides the AI agent through a six-stage analytical pipeline:
 
 1.  **Phase 0: Triage & Configuration** - Event classification and analytical profile selection.
 2.  **Phase 1: Forensic Audit** - Examination of data sources, structural risks, and historical precedents.
@@ -32,30 +32,21 @@ This framework relies on **live web crawling** for real-time data verification. 
 1.  Install **Gemini CLI**: Refer to the [Gemini CLI Official Installation Guide](https://github.com/google-gemini/gemini-cli).
 2.  Ensure your API Key is set and Search tools are enabled.
 
-**Getting the Project:**
-*   **Via Git:**
+**Execution:**
+1.  Clone this repository:
     ```bash
     git clone https://github.com/Chiakai-Chang/polymarket-quant-analyst.git
     cd polymarket-quant-analyst
     ```
-*   **Via ZIP Download:**
-    1.  Download the [Latest Release ZIP](https://github.com/Chiakai-Chang/polymarket-quant-analyst/archive/refs/heads/main.zip).
-    2.  Extract the contents to a local folder.
-
-**Running the Analysis:**
-1.  Open your terminal in the project directory.
 2.  Run the system prompt:
     ```bash
-    gemini chat -s src/system_prompt.md
+    gemini chat -s GEMINI.md
     ```
 3.  Input a target market URL to begin analysis.
 
 ## 📂 Repository Structure
 
-*   `src/system_prompt.md`: The core analytical protocol (v4.1 Professional Edition).
-*   `docs/examples/`: Case studies and usage examples (e.g., Data-Driven Hardware Forecast).
-*   `CHANGELOG.md`: Version history and protocol evolution.
-*   `LICENSE`: MIT License.
+*   `GEMINI.md`: The core analytical protocol (v1.0.0).
 
 ## ⚠️ Disclaimer
 
