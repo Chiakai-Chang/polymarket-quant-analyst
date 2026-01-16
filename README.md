@@ -30,7 +30,7 @@ This framework relies on **live web crawling** for real-time data verification. 
 
 **Prerequisites:**
 1.  **Install Gemini CLI**:
-    *   **Windows Users:** We recommend installing [nvm-windows](https://github.com/coreybutler/nvm-windows) first. After installation, run `nvm install latest` to set up Node.js, then execute `npm install -g gemini-chat-cli`.
+    *   **Windows Users:** We recommend installing [nvm-windows](https://github.com/coreybutler/nvm-windows) first. After installation, run `nvm install latest` to set up Node.js, then execute `npm install -g @google/gemini-cli`.
     *   **Official Guide:** [Gemini CLI Official Installation Guide](https://github.com/google-gemini/gemini-cli).
 2.  **Authentication:** You can either log in via your Google account using `gemini auth login` (recommended for [Google AI Pro](https://one.google.com/intl/zh-TW_tw/about/google-ai-plans/) users to access higher quotas) or set an API key.
 3.  Ensure Search tools are enabled in your environment.
