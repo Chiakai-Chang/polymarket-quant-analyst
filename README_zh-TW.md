@@ -30,7 +30,7 @@
 
 **前置作業：**
 1.  **安裝 Gemini CLI**：
-    *   **Windows 用戶推薦：** 先下載並安裝 [nvm-windows](https://github.com/coreybutler/nvm-windows)。安裝後執行 `nvm install latest` 取得最新 Node.js 環境，接著執行 `npm install -g gemini-chat-cli` 即可。
+    *   **Windows 用戶推薦：** 先下載並安裝 [nvm-windows](https://github.com/coreybutler/nvm-windows)。安裝後執行 `nvm install latest` 取得最新 Node.js 環境，接著執行 `npm install -g @google/gemini-cli` 即可。
     *   **官方指南：** [Gemini CLI Official Installation Guide](https://github.com/google-gemini/gemini-cli)。
 2.  **身分驗證：** 您可以直接透過 `gemini auth login` 使用 Google 帳號登入（推薦 [Google AI Pro](https://one.google.com/intl/zh-TW_tw/about/google-ai-plans/) 用戶使用以獲取更高額度），或設定 API Key。
 3.  確保已開啟網路搜索權限。
